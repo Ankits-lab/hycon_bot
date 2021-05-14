@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   compile:
    docker:
-      - image: aarunalr/aosp-build
+      - image: ubuntu:lastest
    steps:
       - run:
           name: OS setup 
